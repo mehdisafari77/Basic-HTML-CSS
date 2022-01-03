@@ -13,22 +13,6 @@ html{
     --red: rgb(230, 92, 92);
     --green: rgb(96, 240, 120);
 }
-
-/* custom scroll bar */
-::-webkit-scrollbar {
-    width: 10px;
-}
-::-webkit-scrollbar-track {
-    background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-    background: #888;
-}
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-* all similar content styling codes */
 section{
     padding: 100px 0;
 }
@@ -151,11 +135,11 @@ nav button {
 
 /* about section styling */
 .about{
-    height: 30vh;
-    background: linear-gradient(315deg, #ffffff 15%, #d7ecdf 84%);
+    height: 50vh;
+    background: linear-gradient(315deg, #ffffff 15%, #a9e0e2 84%);
 }
 .about .title::after{
-    background: linear-gradient(315deg, #ffffff 0%, #d7ecdf 74%);
+    background: linear-gradient(315deg, #ffffff 0%, #ecead7 74%);
     content: "Who Am I?";
 }
 .about .about-content .left{
@@ -204,7 +188,6 @@ nav button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
     height: 60vh;
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(var(--red), rgb(250, 248, 131), rgb(178, 212, 55));
